@@ -2,8 +2,8 @@
 #include <WiFi.h> // Подключаем тяжелую библиотеку Wi-Fi только здесь
 
 // Сами переменные создаются тут
-const char* wifi_ssid = "ESP32-S3-Flicker";
-const char* password = "password123";
+const char* wifi_ssid = "Flicker";
+const char* password = "123456789";
 
 // Реализация инициализации
 void setupWiFi() {

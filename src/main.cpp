@@ -13,7 +13,7 @@
 
 // Пины экрана
 #define I2C_SDA 8
-#define I2C_SCL 9
+#define I2C_SCL 6
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
@@ -26,7 +26,7 @@ void updateDisplay() {
   display.setTextSize(1);             
   display.setTextColor(SSD1306_WHITE); 
   display.setCursor(0, 0);           
-  display.println("--- SYSTEM MONITOR ---");
+  display.println("--- SYSTEM MONITOR --");
   
   display.setCursor(0, 16);
   display.print("SSID: ");
